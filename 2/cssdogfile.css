@@ -1,16 +1,24 @@
 h1 {
-	color:red;
+	color:crimson;
+	font-size: 24px;
 }
 a:hover {
 	text-decoration: none;
 }
 a,
 li {
-	color: green;
-	font-size: 15px;
+	color: #006400;
+	font-size: 19.2px;
+	text-align: left;
 }
 footer {
 	text-align: center;
 	border-bottom: 2px dashed black;
 }
-style="color: blue; text-decoration: underline; font-size: 20px;"
+figcaption {
+	font-size: 1.2em;
+}
+img {
+	width: 300px;
+	border: 4px double #ff00ff;
+}
