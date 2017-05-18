@@ -1,0 +1,43 @@
+ *
+.block {
+width: 170px;
+height: 256px;
+background-color: #000;
+margin: 30px 15px;
+display: inline-block;
+}
+.wrapper {
+	width: 1200px;
+	height: 100%;
+	background-color: #fff;
+	text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 0;
+
+
+}
+/*width: 15%;
+height: 261px;
+background-color: #000;
+margin: 34px;
+}*/
+/*.block1 {
+	margin-left: 95px;
+}
+
+.block6 {
+	margin-right: 95px
+}
+.block7 {
+	margin-left: 95px;
+}
+.block12 {
+margin-right: 95px
+}
+.block13 {
+	margin-left: 95px;
+}
+.block18 {
+	margin-right: 95px
+}*/

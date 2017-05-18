@@ -1,0 +1,38 @@
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+.wrapper {
+	width: 1200px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.block {
+width: 170px;
+height: 260px;
+background-color: #000;
+margin: 30px 15px;
+display: inline-block;
+vertical-align: middle;
+}
+
+.big {
+width: 360px;
+height: 900px;
+background-color: #000;
+margin: 30px 20px;
+float: left;
+}
+.small {
+	width: 800px;
+	height: 100%;
+	float: left;
+}
+.marg {
+	margin-left: -10px;
+	margin-right: -10px;
+}
