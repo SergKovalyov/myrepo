@@ -1,0 +1,41 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+.bigblack {
+	background-color: #000;
+	margin-left: 95px;
+	margin-top: 60px;
+	width: 45%;
+	height: 480px;
+	float: left;
+}
+.biggrey {
+	background-color: #5b5b5b;
+	margin-top: 60px;
+	width: 45%;
+	height: 240px;
+	float: left;
+}
+.middlegrey {
+	background-color: #919191;
+	width: 280px;
+	height: 240px;
+	float: left;
+
+}
+.lightgrey {
+	background-color: #eaeaea;
+	width: 335px;
+	height: 120px;
+	float: left;
+
+}
+.white {
+background-color: #bdbdbd;
+width: 150px;
+height: 120px;
+float: left;
+}
