@@ -20,6 +20,9 @@ ul ::before {
 .link:hover {
 	text-decoration: underline;
 }
+.underline {
+	text-decoration: underline;
+}
 /* heart \2764 
    star \2605
    sun \2600*/
