@@ -1,0 +1,25 @@
+ul {
+	list-style-type: none;
+}
+.heart::before {
+	content: "\2764";
+}
+.star::before {
+	content: "\2605";
+}
+.sun::before {
+	content: "\2600"; 
+}
+ul ::before {
+	list-style-position: inside;
+}
+.link {
+	text-decoration: none;
+	color: #000;
+}
+.link:hover {
+	text-decoration: underline;
+}
+/* heart \2764 
+   star \2605
+   sun \2600*/
