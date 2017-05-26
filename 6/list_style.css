@@ -3,12 +3,15 @@ ul {
 }
 .heart::before {
 	content: "\2764";
+	padding-right: 7px;
 }
 .star::before {
 	content: "\2605";
+	padding-right: 7px;
 }
 .sun::before {
 	content: "\2600"; 
+	padding-right: 7px;
 }
 ul ::before {
 	list-style-position: inside;
@@ -16,12 +19,19 @@ ul ::before {
 .link {
 	text-decoration: none;
 	color: #000;
+	position: relative;
 }
-.link:hover {
-	text-decoration: underline;
+.link::after {
+  content: "";
+  position: absolute;
+  width: 50%;
+  height: 1px;
+  background-color: #000;
+  bottom: 0;
+  left: 0;
 }
-.underline {
-	text-decoration: underline;
+.link:hover::after {
+  width: 100%;
 }
 /* heart \2764 
    star \2605
