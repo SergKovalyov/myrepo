@@ -5,3 +5,5 @@
 4. Three columns. Float.
 5. Display-float.
 6. List.
+7. Dog_is_amazing
+8. Site layout

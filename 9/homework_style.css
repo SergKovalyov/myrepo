@@ -1,0 +1,327 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+	box-sizing: border-box;
+}
+html, body {
+    width: 100%;
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+}
+	.head-line {
+		background-color:#fa6900;
+		width: 100%;
+		height: 5px; 
+		margin: 0;
+	}
+	.top-wrap {
+		background-color: #69d2e7;
+		height: 470px;
+	}
+
+	.head-wrap {
+		margin-left: 100px;
+		overflow: hidden;
+	}
+	.logo-wrap {
+		margin-top: 36px;
+	}
+	.logo-image {		
+		display: inline-block;
+	}
+	.title-wrap {
+		display: inline-block;
+		vertical-align: top;
+		padding-left: 15px;
+	}
+	.first-line {
+		font-family: Arial, sans-serif;		
+		font-weight: bold;
+		text-transform: uppercase;
+		font-size: 19.88px;
+	}
+	.second-line {		
+		font-family: Arial, sans-serif;
+		font-weight: normal;
+		font-size: 16.76px;
+	}
+	.content {
+		height: 125px;
+		width: 287px;
+		color: #fff;
+		vertical-align: middle;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 70px;
+	}
+	.hello {
+		font-family: Arial, sans-serif;
+		font-weight: bold;
+		font-size: 83.29px;
+		display: block;
+		text-align: center;
+		
+	}
+	.we-are {
+		font-family: , sans-serif;
+		font-weight: bold;
+		font-size: 31.23px;
+		display: block;
+		text-align: center;
+		
+	}
+	.background2 {
+		width: 100%;
+		height: 1620px;
+		background-color: #f1f1f1;
+		position: absolute;
+		top: 470px;
+		left: 0;
+		
+
+	}
+	.text-blok {
+		width: 60%;
+		height: 284px;
+		background-color: #ffffff;
+		color: #000000;
+		box-shadow: 0 0 10px rgba(0,0,0,0.5);
+		border-radius: 10px;
+		vertical-align: middle;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: -142px;
+		margin-bottom: 30px;
+		text-align: center;
+		overflow: auto;
+	}
+	.about-us {
+		color: #000000;
+		font-family: Arial, sans-serif;
+		font-weight: bold;
+		font-size: 36px;
+		text-transform: uppercase;
+	}
+	.about-us-text {
+		color: #000000;
+		font-family: Arial, sans-serif;
+		font-weight: normal;
+		font-size: 22px;
+		text-align: left;
+		padding-left: 20px;
+		padding-top: 30px;
+	}
+	.about-us {
+		border-bottom: 1px solid #d5d5d5;
+		padding-bottom: 17px;
+		padding-top: 46px;
+		margin-bottom: 18px;
+		margin-left: 226px;
+		margin-right: 226px;
+	}
+	.about-us-text {
+		padding: 18px;
+		text-align: left;
+	}
+
+	.links-wrapper {
+		width: 60%;
+		text-align: ;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	.honeycombs {
+		height: 163px;
+		width: 163px;
+		background-color: #ffffff;
+		display: inline-block;
+		border-radius: 10px;
+		margin-right: 75px;
+
+	}
+	.compressor {
+		height: 163px;
+		width: 163px;
+		background-color: #ffffff;
+		display: inline-block;
+		border-radius: 10px;
+		margin-right: 80px;
+        margin-left: 80px;
+
+	}
+	.orbits {
+		height: 163px;
+		width: 163px;
+		background-color: #ffffff;
+		display: inline-block;
+		border-radius: 10px;
+		margin-left: 75px;
+		text-align: center; 	
+	}
+	  .picture {
+        padding: 25%;
+     }
+     .image3 {
+     	height: 77px;
+     }
+      .navtext {
+      	padding-top: 20%;
+      	font-size: 24px;
+      	font-family: Arial, sans-serif;
+      	min-width: 200px;
+      	margin-left: -16px;
+      }
+      .orangebody {
+      	height: 532px;
+      	width: 100%;
+      	background-color: #fa6900;
+      	margin-top: 44px;
+      	position: relative;
+
+
+      }
+      .layer {
+      	float: right;
+      	display: inline-block;
+      }
+      .orangecontent {
+      	width: 32%;
+       	display: inline-block;
+      	margin-left: 100px;
+      	color: #ffffff;
+      	margin-top: 125px;
+
+      }
+      .line1 {
+      	font-family: Arial, sans-serif;
+      	font-size: 26px;
+      	font-weight: bold;
+
+      }
+      	.line2 {
+      	font-family: Arial, sans-serif;
+      	font-size: 22px;
+      	font-weight: normal;
+      	padding-bottom: 25px;
+      }
+      	.line3, .line4, .line5  {
+      	font-family: Arial, sans-serif;
+      	font-size: 16px;
+      	font-weight: normal;
+      	padding: 16px 0;
+      }
+      	.bottom-left {
+        margin-top: 5%;
+      	float: left;
+      	width: 45%;
+      }
+
+		.bottom-wrap {
+		overflow: hidden;
+		}
+		.bottom-logo-wrap {
+			padding-bottom: 50px;
+		}
+		.logo-image {		
+			display: inline-block;
+		}
+		.bottom-title-wrap {
+			display: inline-block;
+			vertical-align: top;
+			padding-left: 15px;
+		}
+		.bottom-content {
+			width: 90%;
+			text-align: left;
+			padding-left: 100px;
+			display: inline-block;
+		}
+		.cont-line-1 {
+		font-family: Arial, sans-serif;
+      	font-size: 16px;
+      	font-weight: normal;
+      	padding: 50px
+      	 0 20px 0;
+      	line-height: 1.5;
+      }
+      	.cont-line-2 {
+      	font-family: Arial, sans-serif;
+      	font-size: 16px;
+      	font-weight: normal;
+      	padding: 20px 0;
+      	line-height: 1.5;
+      }
+      	.bottom-right {
+		margin-top: 5%;
+      	float: left;
+      	width: 40%;
+      	margin-left:14%;  
+      }
+      	.wrapper-latest {
+      	width: 34%;
+      	margin-bottom: 50px;
+      }
+      
+      	.icon-box {
+      	width: 100px;
+      	height: 100px;
+      	background-color: #ffffff;
+      	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+      	text-align: center;
+      	float: left;
+
+      }
+      .icon {
+      	padding-top: 15%;
+      }
+      .bot-text-right {
+		padding-left: 50px;
+    	overflow: hidden;
+   		max-height: 100px;
+      }
+      h4.latest-h4 { 
+      	padding-bottom: 30px;
+      }
+      .margin {
+		margin-top: 30px;
+      }
+      .bottom {
+      	position: absolute;
+      	bottom: 0;
+      	left: 0;
+      	background-color: #69d2e7;
+      	max-height: 65px;
+      	width: 100%;
+      	color: #ffffff;
+      }
+      	.left-txt {
+      		float: left;
+      		font-family: Arial, sans-serif;
+      	    font-size: 14px;
+      	    padding: 30px 0 30px 100px;
+      	}
+      	.right-txt {
+      		float: right;
+      		font-family: Arial, sans-serif;
+      	    font-size: 14px;
+      	    padding: 30px 100px 30px 0;
+      	}
+		a {
+			text-decoration: none;
+			color: #000;
+		}
+     
+      
+      	
+      
+      	
+      
+      
+      
+	
+	
+
