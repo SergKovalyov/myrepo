@@ -1,0 +1,100 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+    form {
+		width: 500px;
+		margin: 10px auto;
+		background-color: #ffffff;
+		border: 1px solid #cccccc; 
+		box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 0.2);
+		border-radius: 5px;
+		padding: 10px;
+		font-family: 'Open Sans', sans-serif;
+	    font-size: 16px;
+	    font-weight: 400;
+
+	}
+	input[type="text"], input[type="password"] {
+		display: inline-block;
+	    width: 100%;
+	    font-family: 'Open Sans', sans-serif;
+	    font-size: 16px;
+	    font-weight: 400;
+	    padding: 5px;
+	    border: 1px solid #ccc;
+	    border-radius: 3px;
+
+	}
+	.group {
+		margin: 10px 0;
+	}
+	.group label {
+		display: inline-block;
+		margin-bottom: 5px;
+	}
+	textarea {
+		display: inline-block;
+	    width: 100%;
+	    font-family: 'Open Sans', sans-serif;
+	    font-size: 16px;
+	    font-weight: 400;
+	    padding: 5px;
+	    border: 1px solid #ccc;
+	    border-radius: 3px;
+	}
+	.upline {
+		border-top: 1px solid #ccc;
+	}
+	.botline {
+		border-bottom: 1px solid #ccc;
+		margin-bottom: 10px;
+	}
+
+	select {
+		display: inline-block;
+	    width: 100%;
+	    font-family: 'Open Sans', sans-serif;
+	    font-size: 16px;
+	    font-weight: 400;
+	    padding: 5px;
+	    border: 1px solid #ccc;
+	    border-radius: 3px;
+	}
+	input[type="radio"] {
+		display: inline-block;
+		padding: 5px;
+	}
+	.groupradio {
+		border-bottom: 1px solid #ccc;
+	}
+	button {
+		display: inline-block;
+	    width: 100%;
+	    font-family: 'Open Sans', sans-serif;
+	    font-size: 16px;
+	    font-weight: 400;
+	    padding: 5px;
+	    border: 1px solid #ccc;
+	    border-radius: 3px;
+	    background-color: #ccc;
+	    cursor: pointer;
+	    border: 1px solid #b3b3b3;
+	} 
+	    .groupradio label {
+	    	padding-right: 10px;
+	    }
+	    input, textarea, select {
+	    outline: 0 !important;
+	}
+	    .group :focus {
+	    border-color: #ccc;
+	    box-shadow: 1px 0px 2px 1px rgba(153,144,153,0.3);
+	    }
+	    textarea :focus {
+	    border-color: #ccc;
+	    box-shadow: 1px 0px 2px 1px rgba(153,144,153,0.3);
+	    }
