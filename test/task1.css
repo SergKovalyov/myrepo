@@ -1,0 +1,10 @@
+1. input[type="checkbox"];
+2. input[type="checkbox"]:not(:checked);
+3. #massage[id=|"massege"];
+4. #massage[id=^"massege-"];
+5. a[href$=".zip"];
+6. [data-action~="delete"];
+7. [data-action]:not([data-action~="delite"]);h3
+8. #message:nth-child(2n);
+9. h3#widget-title+*;
+10. #massage li:last-child a;

@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+    form {
+		width: 500px;
+		margin: 10px auto;
+		background-color: #ffffff;
+		border: 2px solid #000; 
+		box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 0.2);
+		border-radius: 5px;
+		padding: 10px;
+		font-family: 'Open Sans', sans-serif;
+	    font-size: 16px;
+	    font-weight: 400;
+	}
+	input[type="text"] {
+		display: inline-block;
+	    width: 100%;
+	    font-family: 'Open Sans', sans-serif;
+	    font-size: 16px;
+	    font-weight: 400;
+	    padding: 5px;
+	    border: 1px solid #000;
+	    border-radius: 3px;
+	    margin-bottom: 5px;
+	    margin-top: 5px;
+	}
+	button {
+		display: inline-block;
+	    font-family: 'Open Sans', sans-serif;
+	    font-size: 16px;
+	    font-weight: 400;
+	    padding: 5px;
+	    border: 1px solid #ccc;
+	    border-radius: 3px;
+	    background-color: #000;
+	    cursor: pointer;
+	    border: 1px solid #b3b3b3;
+	    color: #fff;
+	    margin-top: 10px;
+	} 
+	.groupradio {
+		padding-bottom: 10px;
+		padding-top: 10px;
+	}
+	 p {
+	 	padding-top: 10px;
+	 }
+		

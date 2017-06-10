@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Form</title>
+	<link rel="stylesheet" type="text/css" href="task3.css">
+</head>
+<body>
+<form  method="get" action="#" target="n_blank" autocomplete="on">
+    <div class="group">
+			<label for="your-name">Ваше имя</label>
+			<input type="text" name="your-surname" placeholder="Например, Иванов Иван Иванович" id="your-name">
+	</div>
+	<div class="group">
+			<label for="your-surname">Ваш род деятельности</label>
+			<input type="text" name="your-surname" placeholder="Например, выращиваю огурцы" id="your-surname">
+	</div>
+	<p>Согласны ли вы с условиями?</p>
+	<div class="groupradio">
+				<input type="radio" name="qwest" value="yes" id="yes">
+				<label for="yes">Категорически, ДА</label>
+				<input type="radio" name="qwest" value="no" id="no">
+				<label for="no">Категорически, НЕТ!</label>
+	<div class="submit">
+			<button type="submit">Отправить</button>
+			</div>	
+</form>
