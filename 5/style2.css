@@ -28,11 +28,16 @@ margin: 30px 20px;
 float: left;
 }
 .small {
-	width: 800px;
-	height: 100%;
+	max-width: 800px;
+	max-height: 100%;
 	float: left;
 }
 .marg {
 	margin-left: -10px;
 	margin-right: -10px;
+}
+@media all and (max-width: 1024px) {
+	.big {
+		max-width: 200px;
+	}
 }
