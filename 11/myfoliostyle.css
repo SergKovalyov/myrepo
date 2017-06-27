@@ -2,10 +2,12 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: sans-serif;
+}
+html {
+	font-family: 'Open Sans', sans-serif;
 }
 	.wrapper {
-		width: 1280px;
+		width: 100%;
 		margin-left: auto;
 		margin-right: auto;
 
@@ -25,20 +27,16 @@
 	.logo-link {
 		text-decoration: none;
 	}
-	.logo span:hover {
-		color: #68cf21;
-	}
 
 	.white {
 		color: #fff;
 		font-size: 20px;
-		font-weight: 'Open Sans' sans-serif;
+		
 		
 	}
 	.yello {
 		color: #cfc91d;
 		font-size: 20px;
-		font-weight: 'Open Sans' sans-serif;
 	}
 	.header-nav {
 		float: right;
@@ -93,7 +91,7 @@
 	}
 	.second-row {
 		color: #fff;
-		font-family: 'Open Sans';
+		
       	font-size: 100px;
       	font-style:  bold;
       	font-weight: 800;
@@ -135,15 +133,16 @@
 		padding-top: 10px;
 		text-transform: uppercase;
 		font-size: 16px;
-		font-family: 'Open Sans';
+		
 	}
 	.text-button {
 		padding-top: 15px;
 	}
 	.white-bg {
 		width: 100%;
-		min-height: 730px;
+	    height: 730px;
 		background-color: #ffffff;
+		margin-bottom: 5%;
 	} 
 	
 	.about-me, .my-work {
@@ -152,7 +151,7 @@
 		margin-left: auto;
 		padding-top: 97px;
 		color: #02918c;
-		font-family: 'Open Sans';
+		
       	font-size: 46px;
       	font-style:  bold;
       	font-weight: 800;
@@ -166,7 +165,7 @@
 		padding: 35px 35px 17px 35px ;
 		font-size: 16px;
 		color: #7e8287;
-		font-family: 'Open Sans';
+		
 	}
 	.text-second-pg, .text-fourth-pg, .text-fith-pg {
 		text-align: center;
@@ -175,16 +174,17 @@
 		padding: 12px;
 		font-size: 16px;
 		color: #7e8287;
-		font-family: 'Open Sans';
+		
 	}
 	.bold-second-row {
 		font-size: 23px;
-		font-family: 'Open Sans';
+		
 		font-style: bold;
 		font-weight: 600;
 	}
 	.info-blocs {
-		width: 1200px;
+		width: 100%;
+		max-height: 400px;
 		padding-top: 100px;
 		text-align: center;
 		margin-left: auto;
@@ -193,15 +193,14 @@
 	.second-pg-info-bloc {
 		display: inline-block;
 		text-align: center;
-		width: 280px;
-		height: 250px;
+		width: 23%;
 		border-right: 1px solid #d9dbdb;
 	}
 	.second-pg-info-bloc-no-bord {
 		display: inline-block;
 		text-align: center;
-		width: 280px;
-		height: 250px;
+		width: 23%;
+		
 	}
 	.second-pg-img {
 		padding-top: 30px;
@@ -210,7 +209,7 @@
 	.lamp-text-bold {
 		font-size: 16px;
 		color: #7e8287;
-		font-family: 'Open Sans';
+		
 		font-style: bold;
 		font-weight: 600;
 		padding-top: 15px;
@@ -219,7 +218,7 @@
 	.text-normal {
 		font-size: 11px;
 		color: #7e8287;
-		font-family: 'Open Sans';
+		
 		padding-top: 10px;
 
 	}
@@ -227,27 +226,26 @@
 		margin-bottom: 90px;
 	}
 	.gray-background {
-		width: 101%;
+		width: 100%;
 		height: 866px;
 		background-color: #f0f0e8;
 	}
 	.left-content {
-		width: 50.5%;
+		width: 52.5%;
 		display: inline-block;
-		margin-top: -50px;
+		
 	}
 	
     .right-content-pict {
-        width: 600px;
-        display: inline-block;
+        width: 47%;
+        float: right;
     }
     
     .services {
     	text-align: left;
 		padding-left: 70px;
-		padding-top: 10px;
+		padding-top: 70px;
 		color: #02918c;
-		font-family: 'Open Sans';
       	font-size: 46px;
       	font-style:  bold;
       	font-weight: 800;
@@ -258,13 +256,13 @@
     	padding: 35px 35px 17px 70px ;
 		font-size: 16px;
 		color: #7e8287;
-		font-family: 'Open Sans';
+		
     }
     .text-third-pg {
     	padding-left: 70px;
 		font-size: 16px;
 		color: #7e8287;
-		font-family: 'Open Sans';
+		
 		line-height: 2.5;
     }
     .third-pg-info-bloc {
@@ -314,7 +312,7 @@
 	.info_title {
 		color: #fff;
 		font-size: 16px;
-		font-family: 'Open Sans';
+		
 		font-style: bold;
 		font-weight: 600;
 		padding-top: 60px;
@@ -325,7 +323,7 @@
 		text-align: center;
 		font-size: 11px;
 		color: #fff;
-		font-family: 'Open Sans';
+		
 		line-height: 1.5;
 	}
 	.fith-pg {
@@ -340,7 +338,7 @@
 		margin-right: auto;
 		margin-left: auto;
 		color: #02918c;
-		font-family: 'Open Sans';
+		
       	font-size: 46px;
       	font-style:  bold;
       	font-weight: 800;
@@ -392,8 +390,9 @@
 	    border-right: none;
 	    color: #898989;
 	    background-color: #0b0b0b;
+	    resize: none;
 	}
-	.wrapper {
+	.wrapper-f {
 		padding-top: 50px;
 	}
 	textarea :focus {
@@ -409,7 +408,7 @@
 		font-weight: bold;
 		cursor: pointer;
 		border: none;
-		font-family: 'Open Sans';
+		
 		font-style: bold;
 		font-weight: 600;
 		font-size: 16px;
@@ -418,7 +417,7 @@
 		padding-top: 50px;
 	}
 	.page-footer {
-		width: 1280px;
+		width: 100%;
 		background-color: #000;
 		text-align: center;
 		color: #898989;
@@ -430,7 +429,87 @@
 		padding: 35px;
 		text-transform: uppercase;
 		font-size: 12px;
-		font-family: 'Open Sans';
-		
 	}
-	
+	@media screen and (max-width: 1024px) {
+		.right-content-pict {
+			display: none;
+		}
+		.second-pg-info-bloc {
+			width: 22%;
+			margin-bottom: 50px;
+		}
+		.left-content {
+		   width: 100%;
+		}
+		.third-pg-info-bloc {
+			width: 49%;
+			text-align: center;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		.services, .weaves-third-pg, text-third-pg {
+			text-align: center;
+		}
+		.line-pg-four a:hover .info {
+				display: none;
+			}
+		
+		@media screen and (max-width: 560px) {
+			.line-pg-four a:hover .info {
+				display: none;
+			}
+			.header {
+			    min-height: 190px;
+					}
+			.header-nav-list-item {
+				display: block;
+			}
+			.logo {
+				float: none;
+			}
+			.header-nav {
+				float: none;
+			}
+			.info-blocs {
+				padding-top: 38px;
+			}
+			.img-four {
+				min-height: 0px;
+			}
+			.images-wrapper {
+				height: 137px;
+			}
+			.wrapper {
+				width: 111vw;
+			}
+			.page-footer {
+				width: 111vw;
+			}
+
+			}
+			@media screen and (max-width: 480px) {
+			.wrapper {
+				width: 129vw;
+			}
+			.page-footer {
+			width: 129vw;
+		    }
+			}
+			@media screen and (max-width: 360px) {
+				.wrapper {
+				width: 194vw;
+			}
+				.page-footer {
+				width: 194vw;
+			    }
+			}
+			@media screen and (max-width: 414px) {
+				.wrapper {
+				width: 150vw;
+			}
+			.page-footer {
+				width: 150vw;
+			    }
+			}
+			
+			
